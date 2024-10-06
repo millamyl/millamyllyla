@@ -1,0 +1,178 @@
+/*
+div {
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+    margin: 20px;
+}
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(255,255,255,.5);
+    }
+    
+nav {
+    background-color: #604e41;
+    }
+      
+li {
+    float: left;
+    }
+      
+li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+      
+li a:hover:not(.active) {
+    background-color: rgb(68, 66, 66);
+    }
+      
+.active {
+    background-color: #4e4c4a;
+    }
+    
+header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("jaa-kuviasuomesta.fi-ksenia-senkova-scaled (1).jpg");
+    background-position: center;
+    background-size: cover; 
+}
+
+.work-experience {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("portaat-kuviasuomesta.fi-ksenia-senkova-scaled.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.education {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("suomenlinna4-kuviasuomesta.fi-ksenia-senkova-scaled.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-me {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("kevat-kuviasuomesta.fi-ksenia-senkova-scaled.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 80px;
+    text-align: center;
+    padding: 150px 10px 150px 10px;
+    color: whitesmoke;
+    margin: 0px;
+}
+
+.bold-text {
+    font-weight: 1000;
+}
+
+section {
+    width: 90%;
+    margin: auto;
+    font-size: 18px;
+    padding: 40px;
+}
+
+section img {
+    padding: 20px 0px 20px 0px;
+    border-radius: 50%;
+}
+
+.center {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+section h2{
+    font-size: 20px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+
+html,body {
+    margin:0;
+    padding: 0px;
+    font-family: "Raleway", sans-serif;
+    background-color: #cfc3ad;
+}
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    }
+    
+input[type=submit] {
+    background-color: #4e4c4a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+    
+input[type=submit]:hover {
+    background-color: rgb(68, 66, 66);
+    }
+    
+.container {
+    border-radius: 5px;
+    background-color: rgba(255,255,255,.5);
+    padding: 20px;
+    }
+
+footer {
+    background-color: ;
+    margin-top: 40px;
+}
+footer p {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+@media only screen and (min-width: 650px) {
+    section {
+    width: 55%;
+      
+    }
+    header h1 {
+    text-align: center;
+    padding: 200px 10px 200px 10px;
+    
+    }
+  }
+
+@media only screen and (min-width: 1025px) {
+    section {
+    width: 75%;
+      
+    }
+    header h1 {
+    font-size: 60px;
+    text-align: center;
+    padding: 200px 10px 200px 10px;
+    
+    }
+  }
