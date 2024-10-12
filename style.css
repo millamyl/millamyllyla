@@ -32,7 +32,7 @@ nav {
   display: inline-block;
 }
 
-CV:hover, CV:active {
+.CV:hover, CV:active {
   background-color: green;
   color: white;
 
