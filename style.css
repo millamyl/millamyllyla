@@ -21,6 +21,12 @@ ul {
 nav {
     background-color: rgb(68, 66, 66);
     }
+
+.list {
+    background-color: #cfc3ad;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
       
 li {
     float: left;
