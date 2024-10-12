@@ -23,9 +23,9 @@ nav {
     }
 
 .CV:link, CV:visited {
-  background-color: white;
+  background-color: #cfc3ad;
   color: black;
-  border: 2px solid green;
+  border: 2px solid #4e4c4a;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -33,7 +33,7 @@ nav {
 }
 
 .CV:hover, CV:active {
-  background-color: green;
+  background-color: #4e4c4a;
   color: white;
 }
 
