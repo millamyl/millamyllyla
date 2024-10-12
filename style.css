@@ -22,7 +22,7 @@ nav {
     background-color: rgb(68, 66, 66);
     }
 
-.CV:link, CV:visited {
+.CV:link, .CV:visited {
   background-color: #cfc3ad;
   color: black;
   border: 2px solid #4e4c4a;
@@ -32,7 +32,7 @@ nav {
   display: inline-block;
 }
 
-.CV:hover, CV:active {
+.CV:hover, .CV:active {
   background-color: #4e4c4a;
   color: white;
 }
